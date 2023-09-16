@@ -1,0 +1,77 @@
+body {
+  background: rgb(0, 0, 0);
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.spinner-wrapper {
+  position: relative;
+}
+
+.spinner1,
+.spinner2 {
+  width: 10em;
+  height: 10em;
+  border-top: 0.8em solid #00ff1e;
+  border-right: 0.8em solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-duration: 1s; /* Adjust the animation duration */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.spinner1 {
+  animation-name: spin1;
+}
+
+.spinner2 {
+  animation-name: spin2;
+  animation-delay: -0.5s; /* Delay by half of the animation duration */
+}
+
+.circle1,
+.circle2 {
+  width: 0.8em;
+  height: 0.8em;
+  background-color: #1aff00;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 8.5em;
+  margin-top: 0.65em;
+}
+
+@keyframes spin1 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.blur {
+  background-color: black; /* Adjust the blur amount as needed */
+  transition: filter 3s;
+}
