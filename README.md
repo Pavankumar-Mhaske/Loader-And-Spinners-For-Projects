@@ -28,6 +28,12 @@ Contributions are always welcome!
 
 ## 📸 Screenshots 📷🎥
 
+![Screenshot (777)](https://github.com/Pavankumar-Mhaske/Loader-And-Spinners-For-Projects/assets/104865937/7447add6-a785-4af3-89dd-3bf15a49444e)
+
+![Screenshot (778)](https://github.com/Pavankumar-Mhaske/Loader-And-Spinners-For-Projects/assets/104865937/2a5aa3f3-d407-4643-82a4-58278d390b99)
+
+![Screenshot (779)](https://github.com/Pavankumar-Mhaske/Loader-And-Spinners-For-Projects/assets/104865937/86ec67a1-9f99-4b3b-94b6-b9659930c23d)
+
 ## Used By
 
 This project is used by the following companies:
