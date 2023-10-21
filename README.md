@@ -17,3 +17,5 @@ Contributions are always welcome!
 ## 📃 Documentation 📄
 
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
